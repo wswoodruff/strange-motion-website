@@ -1,5 +1,6 @@
 const React = require('react');
 const Header = require('components/Header');
+const T = require('prop-types');
 
 // TODO Add the theme provider here
 
@@ -25,7 +26,7 @@ const CoreLayout = ({ children }) => (
 );
 
 CoreLayout.propTypes = {
-    children: React.PropTypes.element.isRequired
+    children: T.element.isRequired
 };
 
 module.exports = CoreLayout;
