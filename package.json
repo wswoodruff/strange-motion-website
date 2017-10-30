@@ -1,5 +1,5 @@
 {
-    "name": "strange-motion",
+    "name": "strange-motion-website",
     "version": "0.0.1",
     "description": "Cool website for cool util wrapper around `react-motion`!",
     "main": "server/plugin.js",
