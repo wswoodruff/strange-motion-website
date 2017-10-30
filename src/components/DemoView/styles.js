@@ -26,6 +26,7 @@ module.exports = {
     `,
     StyledCardContent: styled(CardContent)`
         flex-grow: 1;
+        overflow: hidden;
         display: flex;
         position: relative;
         flex-flow: column nowrap;
